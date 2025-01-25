@@ -73,11 +73,11 @@ int calculateFine(int overdueDays)
 	{
 		return 20 * overdueDays;
 	}
-	else if(overdueDays > 8 && overdueDays <= 14)
+	else if(overdueDays >= 8 && overdueDays <= 14)
 	{
         return 50 * overdueDays;
 	}
-	else if(overdueDays > 14)
+	else if(overdueDays >=15)
 	{
 		return 100 *overdueDays;
 	}
